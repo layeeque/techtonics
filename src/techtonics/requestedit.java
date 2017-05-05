@@ -65,7 +65,7 @@ public class requestedit extends HttpServlet {
 					request.getRequestDispatcher("admin.jsp").forward(request, response);
 					
 				
-			con.close();  
+			 
 			}
 		catch(Exception e){ System.out.println(e);} 
 
